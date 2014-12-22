@@ -1,0 +1,5 @@
+package org.casejpa.main;
+
+public class CreateDatabase {
+
+}

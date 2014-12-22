@@ -1,0 +1,21 @@
+package org.casejdbc.main;
+
+public class ConnectTest {
+
+	public static void main(String[] args) {
+
+		try {
+			Class.forName("org.hsqldb.jdbc.JDBCDriver");
+			System.out.println("ok");
+		} catch (Exception e) {
+			System.err.println("ERROR: failed to load HSQLDB JDBC driver.");
+			e.printStackTrace();
+			return;
+		}
+		
+		
+		Connection c = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost/xdb", "SA", "");
+
+	}
+
+}

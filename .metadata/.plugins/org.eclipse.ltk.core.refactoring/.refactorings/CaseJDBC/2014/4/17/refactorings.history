@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move element &apos;ConnectTest.java&apos; to &apos;CaseJDBC/src/org.casejdbc.main&apos;&#x0D;&#x0A;- Original project: &apos;CaseJDBC&apos;&#x0D;&#x0A;- Destination element: &apos;CaseJDBC/src/org.casejdbc.main&apos;&#x0D;&#x0A;- Original element: &apos;ConnectTest.java&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move compilation unit" destination="/src&lt;org.casejdbc.main" element1="/src&lt;{ConnectTest.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1398370720485" units="1" version="1.0"/>
+</session>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+	version="1.2">
+	<application>
+		<view-handler> com.sun.facelets.FaceletViewHandler</view-handler>
+	</application>
+
+  <!-- our NumberBean we just created -->
+  <managed-bean>
+    <managed-bean-name>NumberBean</managed-bean-name>
+    <managed-bean-class>org.casefacelet.NumberBean</managed-bean-class>
+    <managed-bean-scope>session</managed-bean-scope>
+    <managed-property>
+      <property-name>min</property-name>
+      <value>1</value>
+    </managed-property>
+    <managed-property>
+      <property-name>max</property-name>
+      <value>10</value>
+    </managed-property>
+  </managed-bean>
+
+
+</faces-config>

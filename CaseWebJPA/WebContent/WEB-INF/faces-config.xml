@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<faces-config xmlns="http://java.sun.com/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-facesconfig_1_2.xsd"
+	version="1.2">
+
+	<application>
+		<view-handler>com.sun.facelets.FaceletViewHandler</view-handler>
+	</application>
+
+	<managed-bean>
+		<description>UsernName Bean</description>
+		<managed-bean-name>user</managed-bean-name>
+		<managed-bean-class>org.casewebjpa.main.controller.managedbean.User</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+		<managed-property>
+			<property-name>name</property-name>
+			<property-class>java.lang.String</property-class>
+			<value />
+		</managed-property>
+	</managed-bean>
+
+	<managed-bean>
+		<description>StaffMB</description>
+		<managed-bean-name>StaffMB</managed-bean-name>
+		<managed-bean-class>org.casewebjpa.main.controller.managedbean.StaffMB</managed-bean-class>
+		<managed-bean-scope>request</managed-bean-scope>
+	</managed-bean>
+</faces-config>

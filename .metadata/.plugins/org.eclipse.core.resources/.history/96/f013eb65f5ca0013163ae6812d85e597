@@ -1,0 +1,5 @@
+package org.casefacelet.main;
+
+public class NumberBean {
+
+}

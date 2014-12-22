@@ -1,0 +1,12 @@
+package org.casejpa.main;
+
+public class CreateDatabase {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+	
+}
